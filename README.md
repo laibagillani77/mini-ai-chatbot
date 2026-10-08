@@ -1,33 +1,87 @@
-MINI AI CHATBOT
-Project Overview -
+🤖 Mini AI Chatbot
 
-Mini AI Chatbot is an interactive AI-powered web application developed using Python, Streamlit, and Google’s Gemini API.
-The application allows users to enter messages and receive AI-generated responses through a simple chat interface.
+An interactive AI-powered chatbot built with Python, Streamlit, and Google's Gemini API.
 
-Technologies Used: 
-Python — Application programming language
-Streamlit — Interactive web application framework
-Google Gemini API — AI-generated conversational responses
-GitHub — Source code management
-Features
-Interactive chatbot interface
-User message input
-AI-generated responses powered by Gemini
-Browser-based application built with Streamlit
-How to Run
-Clone or download this repository.
-Install the project dependencies:
+## 📌 Project Overview:
+
+Mini AI Chatbot is a web-based application that allows users to interact with Google's Gemini AI model through a simple chat interface.
+
+This project demonstrates how Python applications can integrate generative AI with an interactive user interface.
+
+
+## ✨ Features:
+
+- Interactive web-based chatbot
+- AI-generated responses powered by Google Gemini
+- User-friendly interface built with Streamlit
+- Custom interface styling
+- Secure API key configuration using Streamlit secrets
+
+## 🛠️ Technologies Used:
+
+- **Python:** Application logic
+- **Streamlit:** Web interface and UI components
+- **Google Gemini API:** Generative AI responses
+- **Google Gen AI SDK:** Connection to Gemini
+- **GitHub:** Version control and project hosting
+
+## 🚀 Installation and Setup:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/laibagillani77/mini-ai-chatbot.git
+cd mini-ai-chatbot
+```
+
+### 2. Install dependencies:
+
+```bash
 python -m pip install -r requirements.txt
+```
 
-Configure your Gemini API key using the method supported by the application. Never publish your API key.
-Launch the application:
+### 3. Configure your Gemini API key:
+
+Create a folder named `.streamlit` and a file inside it named `secrets.toml`.
+
+Add the following configuration:
+
+```toml
+GEMINI_API_KEY = "YOUR_API_KEY_HERE"
+```
+
+Get your own API key from Google AI Studio.
+
+Never upload your real API key to GitHub.
+
+### 4. Run the application:
+
+```bash
 python -m streamlit run app.py
+```
 
-What I Learned :
-This project provided practical experience with Python programming, building interactive web interfaces, connecting an application to a generative AI model, and testing application functionality.
+Open the local URL displayed in your terminal.
 
-Future Improvements :
-Improve the visual design and responsiveness
-Add enhanced error handling
-Explore additional chat features
-Deploy the application for public demonstration
+
+## 💡 What I Learned:
+
+Through this project, I gained hands-on experience with:
+
+- Python application development
+- Building web interfaces using Streamlit
+- Integrating Google's Gemini AI model
+- Managing API credentials securely
+- Troubleshooting and testing an AI application
+- Using GitHub to organize and share code
+
+## 🔮 Future Improvements:
+
+- Improve mobile responsiveness
+- Enhance chat interface accessibility
+- Add additional customization options
+- Deploy the chatbot as a publicly accessible web application
+
+## 👩‍💻 Developer:
+
+Developed as a personal project to strengthen practical skills in Python, generative AI integration, and user interface development.
+
