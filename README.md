@@ -1,5 +1,8 @@
 🤖 Mini AI Chatbot
 
+LIVE DEMO: 
+[Try MiniAi Chatbot Live](https://mini-ai-chatbot-qyhf8tpryzqcu4dqnfcxip.streamlit.app/)
+
 An interactive AI-powered chatbot built with Python, Streamlit, and Google's Gemini API.
 
 ## 📌 Project Overview:
