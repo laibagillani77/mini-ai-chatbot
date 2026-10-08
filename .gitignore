@@ -1,0 +1,12 @@
+# Keep API keys private
+.streamlit/secrets.toml
+.env
+.env.*
+
+#Python temporary files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
